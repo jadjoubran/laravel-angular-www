@@ -16,9 +16,7 @@
             </div>
             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
                 <div class="docs">
-                    <div id="deprecated">Unfortunately, this project has been discontinued.<br>
-                    A member of the community has suggested the following <a href="https://medium.com/@rbrisita/laravel-and-angular-automated-800f342ab3cf">replacement</a>.<br>
-                    This replacement is not affiliated with laravel-angular.io</div>
+                    @include('_partials.archived')
                     @yield('body')
                 </div>
             </div>

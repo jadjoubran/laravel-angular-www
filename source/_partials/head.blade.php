@@ -35,6 +35,27 @@ $subtitle = "Laravel & Angular. ".$subtitle;
       color: var(--dark);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   }
+
+  #legacy {
+        background-color: #ff7857;
+        padding: 5px 30px;
+        border-radius: 10px;
+        max-width: 700px;
+        margin-inline: auto;
+        margin-bottom: 30px;
+        text-align: left;
+      }
+      #legacy a {
+        text-decoration: underline;
+      }
+      #legacy a,
+      #legacy p {
+        font-size: 1rem;
+        color: #141414;
+      }
+      #legacy .signed {
+        text-align: right;
+      }
 </style>
 <link rel="stylesheet" href="/css/main.css?v=3">
 

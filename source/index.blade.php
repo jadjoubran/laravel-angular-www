@@ -11,6 +11,11 @@
     </h1>
 
     <a class="mdc-button mdc-button--raised mdc-button--primary" href="/docs/1/">Get Started</a>
+   
+    <div style="margin-top: 50px">
+        @include('_partials/archived')
+    </div>
+
 </div>
 </div>
 
