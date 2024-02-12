@@ -32,6 +32,27 @@
       color: var(--dark);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   }
+
+  #legacy {
+        background-color: #ff7857;
+        padding: 5px 30px;
+        border-radius: 10px;
+        max-width: 700px;
+        margin-inline: auto;
+        margin-bottom: 30px;
+        text-align: left;
+      }
+      #legacy a {
+        text-decoration: underline;
+      }
+      #legacy a,
+      #legacy p {
+        font-size: 1rem;
+        color: #141414;
+      }
+      #legacy .signed {
+        text-align: right;
+      }
 </style>
 <link rel="stylesheet" href="/css/main.css?v=3">
 
@@ -48,9 +69,6 @@
                         <img src="/images/logo.svg" alt="Laravel Angular Logo">
                     </a>
                     <div class="links">
-                        <a href="https://learnjavascript.online/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">Learn JavaScript</a>
-                        <a href="https://react-tutorial.app/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">React Tutorial</a>
-                        <a href="https://learnprogramming.online/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">Learn Programming</a>
                     </div>
                 </div>
             </div>
@@ -90,10 +108,67 @@
             </div>
             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
                 <div class="docs">
-                    <div id="deprecated">Unfortunately, this project has been discontinued.<br>
-                    A member of the community has suggested the following <a href="https://medium.com/@rbrisita/laravel-and-angular-automated-800f342ab3cf">replacement</a>.<br>
-                    This replacement is not affiliated with laravel-angular.io</div>
-                    <h2>JWT Auth Usage</h2>
+                    <div id="legacy">
+  <p>
+    This project has been archived. If you're curious, check out one
+    of my latest courses:
+  </p>
+  <ul>
+    <li>
+      <a
+        href="https://learnjavascript.online/?utm_source=laravel-angular.io"
+        target="_blank"
+        >Learn JavaScript</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://learntypescript.online/?utm_source=laravel-angular.io"
+        target="_blank"
+        >Learn TypeScript</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://learnprogramming.online/?utm_source=laravel-angular.io"
+        target="_blank"
+        >Learn Programming</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://react-tutorial.app/?utm_source=laravel-angular.io"
+        target="_blank"
+        >React Tutorial</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://learnhtmlcss.online/?utm_source=laravel-angular.io"
+        target="_blank"
+        >Learn HTML CSS</a
+      >
+    </li>
+  </ul>
+  <p>
+    If you work with JavaScript, check out the
+    <a
+      href="https://learnjavascript.online/topics/fetch.html"
+      target="_blank"
+      >fetch use cases</a
+    >
+    and
+    <a
+      href="https://learnjavascript.online/projects.html"
+      target="_blank"
+      >JavaScript projects</a
+    >.
+  </p>
+  <p class="signed">
+    Thank you! &mdash;
+    <a href="https://jadjoubran.io" target="_blank">Jad Joubran</a>
+  </p>
+</div>                    <h2>JWT Auth Usage</h2>
 
 <div class="subtitle">Using the JWT Auth Guard</div>
 
