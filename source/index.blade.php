@@ -100,6 +100,7 @@
 </div>
 
 <script async src="/js/particles.js"></script>
+@verbatim
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -124,4 +125,5 @@
     "url": "https://laravel-angular.io"
 }
 </script>
+@endverbatim
 @endsection
