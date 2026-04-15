@@ -27,6 +27,13 @@
     </li>
     <li>
       <a
+        href="https://sql-tutorial.app/?utm_source=laravel-angular.io"
+        target="_blank"
+        >SQL Tutorial</a
+      >
+    </li>
+    <li>
+      <a
         href="https://react-tutorial.app/?utm_source=laravel-angular.io"
         target="_blank"
         >React Tutorial</a
