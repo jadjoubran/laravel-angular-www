@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "start": "python3 -m http.server 8080 --directory public",
-    "deploy": "git push origin \"$(git subtree split --prefix public HEAD)\":gh-pages --force"
+    "start": "python3 -m http.server 8080 --directory docs"
   }
 }
